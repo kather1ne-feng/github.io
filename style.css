@@ -1,0 +1,183 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+    color: #F1EEE9;
+    margin: 20px;
+    padding: 15px 15px 0 15px;
+}
+p {
+    margin: 20px;
+    padding: 0px 15px 0 15px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h2 {
+    margin: 20px;
+    padding: 0px 15px 0 15px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+.flexboxContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexItem{
+    flex-basis: 100%;
+    text-align: left;
+}
+
+/* BREAKPOINT 1 */
+@media screen and (max-width: 700px){
+    h1 {
+        font-size: 94%;
+    }
+}
+
+/*
+Black: #000000
+
+Medium Gray: #565656
+
+Light Gray: #9e9e9e
+
+Hot Orange: #fba92c
+
+White: #FFFFFF
+
+*/
+
+
+section {
+    font-family: sans-serif;
+    /*   font-size: 12ch; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+
+}
+
+section h1 {
+    font-size: 12ch;
+}
+section p {
+    font-size: 2ch;
+}
+section:nth-child(1) {
+    background-image: url('assets/jail.jpg');
+  background-repeat: no-repeat;
+    background-attachment: fixed; 
+  background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+section:nth-child(2) {
+    background: #EC994B;
+}
+section:nth-child(3) {
+  background: url('assets/court.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section:nth-child(4) {
+  background-color: black;
+}
+
+iframe {
+    /*centering the image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*add padding*/
+    padding: 10px;
+}
+
+
+button {
+  font-style: strong;
+  font-size: 30px;
+  border: none;
+  margin: 0 35px;
+  background: black;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #F1EEE9;
+}
+
+
+.center {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  justify-content: center;
+  margin-top: 2em;
+  align-items: center;
+}
+
+input {
+  margin: 0 15px;
+}
+#centerInput{
+  text-align: left;
+  padding: 20px;
+}
+
+#motivateButton{
+  /*center button. display as a block element*/
+  display: block;
+  margin: 0 auto;
+
+  /*add spacing within the content of the button*/
+  padding: 10px; 
+
+  /*add spacing around the button*/
+  margin-top: 40px; 
+  margin-bottom: 40px;
+
+  /*add color*/
+
+  /*button size*/
+  font-size: 24px;
+
+  /*rounded buttons*/
+}
+
+#enterName{
+  text-align: left; 
+}
+
+#message {
+  padding: 0;
+}
